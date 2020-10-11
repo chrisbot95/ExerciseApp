@@ -2,8 +2,8 @@
   <div>
       <Nav />
       <div class="container">
-      <router-view/>
-    </div>
+        <router-view/>
+      </div>
   </div>
 </template>
 

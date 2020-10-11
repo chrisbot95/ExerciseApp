@@ -17,15 +17,16 @@
     <div class="navbar-start">
       <router-link to="/" class="navbar-item" >Home</router-link>
       <router-link to="/friends" class="navbar-item" >Friends</router-link>
+      <router-link to="/exercises" class="navbar-item" >Exercises</router-link>
       <router-link to="/about" class="navbar-item" >About</router-link>
     </div>
 
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button">
+          <router-link to="/signup" class="button">
             <strong>Sign up</strong>
-          </a>
+          </router-link>
             <router-link to="/login" class="button is-light">
               Log in
             </router-link>
