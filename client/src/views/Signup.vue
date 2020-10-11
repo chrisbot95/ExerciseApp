@@ -36,6 +36,17 @@
 </div>
 
 <div class="field">
+  <label class="label">Password</label>
+  <div class="control has-icons-right">
+    <input class="input" type="email" placeholder="Email input" value="hello@">
+    <span class="icon is-small is-right">
+      <i class="fas fa-exclamation-triangle"></i>
+    </span>
+  </div>
+  <p class="help is-danger">This password is invalid</p>
+</div>
+
+<div class="field" style="margin-top: 15px">
   <label class="label">Subject</label>
   <div class="control">
     <div class="select">
