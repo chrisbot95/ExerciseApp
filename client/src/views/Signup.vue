@@ -44,22 +44,17 @@
     </span>
   </div>
   <p class="help is-danger">This password is invalid</p>
-</div>
-
-<div class="field" style="margin-top: 15px">
-  <label class="label">Subject</label>
-  <div class="control">
-    <div class="select">
-      <select>
-        <option>Select dropdown</option>
-        <option>With options</option>
-      </select>
-    </div>
+  <div class="control has-icons-right">
+    <input class="input" type="email" placeholder="Email input" value="hello@">
+    <span class="icon is-small is-right">
+      <i class="fas fa-exclamation-triangle"></i>
+    </span>
   </div>
+  <p class="help is-danger">This password is invalid</p>
 </div>
 
 <div class="field">
-  <label class="label">Message</label>
+  <label class="label">Say something about yourself</label>
   <div class="control">
     <textarea class="textarea" placeholder="Textarea"></textarea>
   </div>
@@ -70,19 +65,6 @@
     <label class="checkbox">
       <input type="checkbox">
       I agree to the <a href="#">terms and conditions</a>
-    </label>
-  </div>
-</div>
-
-<div class="field">
-  <div class="control">
-    <label class="radio">
-      <input type="radio" name="question">
-      Yes
-    </label>
-    <label class="radio">
-      <input type="radio" name="question">
-      No
     </label>
   </div>
 </div>

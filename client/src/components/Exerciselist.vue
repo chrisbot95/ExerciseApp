@@ -4,7 +4,6 @@
     Aerobic
   </p>
   <ul class="menu-list">
-    <li><a>Stationary Cycling</a></li>
     <li><a>Outdoor Cycling</a></li>
     <li><a>Walking</a></li>
     <li><a>Lap Swimming</a></li>

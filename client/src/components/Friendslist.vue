@@ -4,8 +4,14 @@
     Your Friends
   </p>
   <ul class="menu-list">
-    <li><a>Princess Wilson</a></li>
-    <li><a>Ashley Johnson</a></li>
+    
+    <li><a>
+      <span class="icon is-small is-left">
+      <i class="fas fa-user"></i>
+    </span>  Princess Wilson</a></li>
+    <li><a><span class="icon is-small is-left">
+      <i class="fas fa-user"></i>
+    </span>  Ashley Johnson</a></li>
   </ul>
 </aside>
 </template>

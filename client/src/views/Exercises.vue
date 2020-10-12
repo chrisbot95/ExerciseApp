@@ -5,20 +5,19 @@
                 <Exerciselist/>
             </div>
             <div class="column is-two-thirds">
-                <Cardlist/>
+                <Card/>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import Cardlist from '@/components/Cardlist.vue'
-import Exerciselist from '@/components/Exerciselist.vue';
 import Card from '@/components/Card.vue'
+import Exerciselist from '@/components/Exerciselist.vue';
 export default {
     name: 'Exercises',
     components: {
-        Exerciselist, Cardlist, Card,
+        Exerciselist, Card,
     }
 }
 </script>
