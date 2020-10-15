@@ -1,62 +1,40 @@
 <template>
 <div style="margin-top: 15px">
-  <div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Text input">
-  </div>
-</div>
-
 <div class="field">
   <label class="label">Username</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+    <input class="input" type="text" placeholder="Text input">
     <span class="icon is-small is-left">
       <i class="fas fa-user"></i>
     </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
   </div>
-  <p class="help is-success">This username is available</p>
 </div>
 
 <div class="field">
   <label class="label">Email</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+    <input class="input" type="email" placeholder="Email input" >
     <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>
     </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
   </div>
-  <p class="help is-danger">This email is invalid</p>
 </div>
 
 <div class="field">
   <label class="label">Password</label>
   <div class="control has-icons-right">
-    <input class="input" type="email" placeholder="Email input" value="hello@">
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
+    <input class="input" type="password" placeholder="Password input">
   </div>
-  <p class="help is-danger">This password is invalid</p>
-  <div class="control has-icons-right">
-    <input class="input" type="email" placeholder="Email input" value="hello@">
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
+  
+  <div class="control has-icons-right" style="margin-top: 15px">
+    <input class="input" type="password" placeholder="Enter password again">
   </div>
-  <p class="help is-danger">This password is invalid</p>
 </div>
 
 <div class="field">
   <label class="label">Say something about yourself</label>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <textarea class="textarea" placeholder="Text input"></textarea>
   </div>
 </div>
 
