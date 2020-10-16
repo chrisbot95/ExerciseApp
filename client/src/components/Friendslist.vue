@@ -5,22 +5,25 @@
   </p>
   <ul class="menu-list">
     
-    <li><a>
-      <span class="icon is-small is-left">
-      <i class="fas fa-user"></i>
-    </span>  Princess Wilson</a></li>
-    <li><a><span class="icon is-small is-left">
-      <i class="fas fa-user"></i>
-    </span>  Ashley Johnson</a></li>
+    <li><a v-for="x in profiles"
+                  :key= "x">
+    <span class="icon is-small is-left">
+    <i class="fas fa-user"></i>
+    </span>
+    {{x}}
+    </a></li>
   </ul>
 </aside>
 </template>
 
 <script>
+import { profiles } from "@/models/profiles";
 export default {
-    props: {
-        friendslist: Object
-    }
+  data(){
+        return {
+            profiles
+        }
+    },
 }
 </script>
 

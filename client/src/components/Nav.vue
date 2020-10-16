@@ -20,18 +20,12 @@
       <router-link to="/exercises" class="navbar-item" >Exercises</router-link>
       <router-link to="/feed" class="navbar-item" >Feed</router-link>
       <router-link to="/about" class="navbar-item" >About</router-link>
+      <router-link to="/admin" class="navbar-item" >Admin</router-link>
     </div>
 
     <div class="navbar-end">
       <div class="navbar-item">
-        <div class="buttons">
-          <router-link to="/signup" class="button">
-            <strong>Sign up</strong>
-          </router-link>
-            <router-link to="/login" class="button is-light">
-              Log in
-            </router-link>
-        </div>
+        <LoginBadge/>
       </div>
     </div>
   </div>
@@ -40,12 +34,16 @@
 </template>
 
 <script>
+import LoginBadge from "@/components/LoginBadge";
 export default {
   data: ()=>({
     isActive: false
   }),
   methods: {
 
+  },
+  components: {
+    LoginBadge
   }
 }
 </script>
