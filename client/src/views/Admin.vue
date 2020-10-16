@@ -6,11 +6,12 @@
   </p>
   <ul class="menu-list">
     
-    <li>
+    <li v-for="x in profiles"
+                  :key= "x">
     <a>
       <span class="icon is-small is-left" >
       <i class="fas fa-user" ></i>
-    </span>  Chris
+    </span>  {{x}}
     <button>Edit</button>
     <button>Delete</button>
     <nav class="panel">
@@ -83,7 +84,13 @@
 </template>
 
 <script>
+import { profiles } from "@/models/profiles";
 export default {
+  data(){
+        return {
+            profiles
+        }
+    },
 }
 </script>
 
